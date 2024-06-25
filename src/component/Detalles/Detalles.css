@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+.app__detalles {
+  width: 360px;
+  height: 800px;
+  background: #f8f9fb;
+  position: relative;
+}
+
+.detalles__header {
+  padding: 12px 21px 0 22px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.detalles__time {
+  color: #5b5c5e;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.detalles__subheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 11px 0 14px;
+}
+
+.subheader__text {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.detalles__content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.detalles__exito {
+  color: #6eb893;
+  font-family: Inter;
+  font-size: 13.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 9px;
+}
+
+.exito__date {
+  color: #949597;
+  font-family: Inter;
+  font-size: 9.7px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 7px;
+}
+
+.detalles__white {
+  width: 333px;
+  height: 213px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 14px;
+  margin-top: 33px;
+  padding: 20px 20px 19px 17px;
+}
+
+.detalles__white2 {
+  width: 333px;
+  height: 128px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 12px;
+}
+
+.detalles__white3 {
+  height: 92px;
+
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  padding: 24px 0 19px 18px;
+  gap: 3px;
+}
+
+.detalles__bottom {
+  position: absolute;
+  bottom: 0;
+  background-color: #010101;
+  width: 100%;
+  height: 46px;
+}
+
+.first__detalles {
+  display: flex;
+  gap: 18px;
+}
+
+.detalles__detaillright {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.detalles__detail {
+  color: #919193;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.send__detalles {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.usdt__detalles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 237px;
+  color: #000;
+  font-family: Inter;
+  font-size: 11.7px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.bar__usdt {
+  display: flex;
+}
+
+.Tron {
+  color: #919193;
+  font-family: Inter;
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.second__detalles__title {
+  color: #919193;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.trx__amount {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.second__detalles {
+  display: flex;
+
+  padding-top: 16px;
+}
+
+.second__detalles__title {
+  max-width: 60px;
+}
+
+.detalles__white2 {
+  padding: 22px 21px 15px 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.detalles__from {
+  display: flex;
+  gap: 30px;
+}
+
+.full__address {
+  max-width: 200px;
+}
+
+.detalles__To {
+  display: flex;
+  gap: 45px;
+}
+
+.small__bar {
+  display: flex;
+  margin: 15px 0 17px;
+  gap: 65px;
+}
+
+.detalles__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white3__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.white3__right > span {
+  color: #000;
+  font-family: Inter;
+  font-size: 11.8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.white3__right > label {
+  padding-top: 9px;
+  color: #919193;
+  font-family: Inter;
+  font-size: 9.9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.numero__transaccion {
+  color: #919193;
+  font-family: Inter;
+  font-size: 11.9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.detalles__fromtitle {
+  color: #919193;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.detalles__totitle {
+  color: #919193;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.fullcode {
+  color: #000;
+  font-family: Inter;
+  font-size: 11.9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.full__address {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.detalles__signal {
+  display: flex;
+  align-items: baseline;
+  gap: 1px;
+}
+.detalles__1 {
+  width: 2px;
+  height: 4px;
+  background-color: #57585a;
+}
+.detalles__2 {
+  width: 2px;
+  height: 6px;
+  background-color: #57585a;
+}
+.detalles__3 {
+  width: 2px;
+  height: 8px;
+  background-color: #babbbd;
+}
+.detalles__4 {
+  width: 2px;
+  height: 10px;
+  background-color: #babbbd;
+}
+
+.__new {
+  background-color: #57585a !important;
+}
+
+.vol1__signal,
+.vol2__signal {
+  display: flex;
+  align-items: baseline;
+  gap: 2.5px;
+}
+.detalless__right {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.detalles__level {
+  color: #57585a;
+  font-family: Roboto;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.detalles__batt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.border__topdetalles {
+  width: 3px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #babbbd;
+}
+
+.content__topdetalles {
+  width: 7px;
+  height: 10px;
+  background-color: #babbbd;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.battery__detalles {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+
+.level__detalles {
+  width: 100%;
+  height: 5px;
+  background-color: red;
+}
+
+.detalles__left {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  color:#5b5c5e
+}

@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap");
+
+@font-face {
+  font-family: "NotaW01-XBold";
+  src: url("/fonts/Nota\ W01\ XBold.ttf") format("truetype");
+}
+.binance__white {
+  width: 369px;
+  height: 800px;
+  background-color: #fff;
+  position: relative;
+}
+/* 
+styling the battery */
+.binance__whiteheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 26px 23px 43px;
+}
+
+.lte__battery {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+
+.lte__cover {
+  width: 24px;
+  height: 13px;
+  border-radius: 4px;
+  border: 1px solid #979797;
+  display: flex;
+  padding: 1px;
+}
+
+.binance__border {
+  width: 1px;
+  height: 3px;
+  border-radius: 4px;
+  background: #d9d9d9;
+}
+
+.lte__level {
+  width: 19px;
+  height: 9px;
+  border-radius: 3px;
+  background: #000;
+}
+
+.rightbinance__white {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.whiteheader__time > span {
+  color: #000;
+  font-family: Inter;
+  font-size: 16.2px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.lte__binance {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* styling the signal */
+
+.signal__whitebinance {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+}
+
+.whitesignal__1 {
+  width: 3px;
+  height: 4px;
+  border-radius: 1px;
+  background: #000;
+}
+.whitesignal__2 {
+  width: 3px;
+  height: 6px;
+  border-radius: 1px;
+  background: #d9d9d9;
+}
+.whitesignal__3 {
+  width: 3px;
+  height: 9px;
+  border-radius: 1px;
+  background: #d9d9d9;
+}
+.whitesignal__4 {
+  width: 3px;
+  height: 11px;
+  border-radius: 1px;
+  background: #d9d9d9;
+}
+
+/* styling the subheader */
+.whitebinance__subheader {
+  padding-left: 18px;
+}
+
+/* styling the content */
+.whitebinance__content {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+   margin-top: 58px;
+}
+.logo__binancewhite {
+  padding-bottom: 25px;
+}
+
+.binancewhite__withdraw {
+  color: #171b1c;
+  font-family: Inter;
+  font-size: 18.3px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* styling the bottom of the white binance */
+
+.whitebinance__bottom {
+  position: absolute;
+  bottom: 8px;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.whitebinance__border {
+  width: 131px;
+  height: 4px;
+  background-color: #010101;
+  border-radius: 80px;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.button__text {
+  color: #000;
+  font-family: Inter;
+  font-size: 14.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+
+
+.receive__email {
+  color: #a7a8aa;
+  font-family: Inter;
+  font-size: 10.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.detaill__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding-bottom: 8px;
+}
+
+.receive__email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.estimated {
+  color: #696d70;
+  font-family: Inter;
+  font-size: 11.3px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.date__white {
+  color: #a7a8aa;
+  font-family: "NotaW01-XBold";
+  font-size: 11.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.531px;
+}
+
+.binancewhite__amount {
+  color: #000;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.17px;
+  padding-top: 12px;
+}
+
+
+.whitebinance__button {
+  width: 339px;
+  height: 45px;
+  border-radius: 3px;
+  background: #fcd436;
+  display: grid;
+  place-items: center;
+  margin: auto;
+  margin-bottom: 35px;
+  margin-top: 27px;
+}
+.white__w1 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+
+.__margin__bottom { 
+  margin-bottom: 15px !important;
+}

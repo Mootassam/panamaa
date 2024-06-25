@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+body {
+  background-color: #e8f1f8;
+
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.app__content {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__canvas {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+}
+
+.content {
+  position: relative;
+
+}

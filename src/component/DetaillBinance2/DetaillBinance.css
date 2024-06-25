@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+.detaill__binance {
+  width: 360px;
+  height: 800px;
+  background-color: #1f2630;
+  position: relative;
+}
+
+/* styling the header */
+
+.detaill__header {
+  padding: 6px 30px 17px 31px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.detaill__left {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  color: white;
+}
+
+.detaill__time {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 12.3px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.detaill__battery {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+
+.binancedetaill__cover {
+  width: 18px;
+  height: 11px;
+  border-radius: 3px;
+  border: 1px solid #c8ccd5;
+  overflow: hidden;
+  padding: 1.2px;
+}
+
+.binancedetaill__border {
+  width: 1px;
+  height: 4px;
+  background-color: #c8ccd5;
+}
+
+/* styling the detaill right  */
+
+.detaill__right {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+/* styling the subheader */
+.detaill__subheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 21px;
+}
+
+.title__subheader {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18.9px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* 
+styling the content */
+
+.detaillbinance__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 42px;
+}
+
+.monto {
+  color: #7f8690;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.detaillbinance__amount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.binances__amount {
+  display: flex;
+  align-items: baseline;
+  align-items: baseline;
+  gap: 3px;
+  padding-top: 10px;
+}
+
+.amount__ {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.currency {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.detaillbinance__completed {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 9px;
+}
+.completed__text {
+  color: #56a98f;
+  font-family: Roboto;
+  font-size: 16.5px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.detaill__completed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 13px;
+}
+
+.detaill__completed > span {
+  color: #7f8690;
+  font-family: Roboto;
+  font-size: 12.12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.detaill__yellow {
+  color: #d1bb55;
+  font-family: Roboto;
+  font-size: 12.4px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 4px;
+}
+
+.bar {
+  display: flex;
+  margin: 30px 0 0 0;
+}
+
+.other__detail {
+  display: flex;
+  flex-direction: column;
+  padding: 31px 13px 0 15px;
+}
+
+.other__detail > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.other__left {
+  color: #7f8690;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.other__first {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.other__second {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14.36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.direction__column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.direction__row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.direction__column > span {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 13.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.direction__column > label {
+  color: #e0b447;
+  font-family: Roboto;
+  font-size: 14.6px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 7px;
+}
+
+.txid__detail {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.txid__left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.txid__left > span {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 13.4px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.usdt__class {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 13.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.date__ {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 13.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* stlying the down box */
+.down__box {
+  width: 300px;
+  height: 59px;
+  border-radius: 3px;
+  background: #29313c;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box__detail {
+  padding-left: 14px;
+  padding-right: 22px;
+  display: flex;
+  flex-direction: column;
+}
+.box__detail > span {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 10.2px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.detaill__footer {
+  position: absolute;
+  bottom: 9px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detaill__littlespace {
+  margin-bottom: 4px;
+}
+
+.red__space {
+  padding-top: 19px;
+}
+
+.retiro__space {
+  padding-top: 20px;
+}
+
+.direcion__space {
+  padding-top: 18px;
+}
+
+.txid__space {
+  padding-top: 11px;
+}
+.red__space {
+  padding-top: 20px;
+}
+.date__space {
+  padding-top: 19px;
+}
+
+.down__box {
+  margin-top: 39px;
+}
+
+.level__cover {
+  width: 100%;
+  height: 100%;
+  background-color: #73787c;
+}
+.detaill__signal {
+  display: flex;
+  align-items: first baseline;
+}
+.lte__image {
+  margin-right: -2px;
+}
+
+.signal__detaill {
+  display: flex;
+  align-items: baseline;
+  gap: 1.3px;
+}
+.detaill__signal1 {
+  width: 2px;
+  height: 3px;
+  background-color: #fff;
+}
+.detaill__signal2 {
+  width: 2px;
+  height: 5px;
+  background-color: #fff;
+}
+.detaill__signal3 {
+  width: 2px;
+  height: 7px;
+  background-color: #fff;
+}
+.detaill__signal4 {
+  width: 2px;
+  height: 9px;
+  background-color: #575b66;
+}
+.detaill__signal5 {
+  width: 2px;
+  height: 11px;
+  background-color: #575b66;
+}

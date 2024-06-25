@@ -1,0 +1,275 @@
+@font-face {
+  font-family: "NotaW01-XBold";
+  src: url("/fonts/nota.ttf") format("truetype");
+}
+
+.bdark__mode {
+  width: 370px;
+  height: 800px;
+  background-color: #232732;
+  position: relative;
+}
+
+/* styling the header */
+.binancedark__modeheader {
+  padding-top: 13px;
+  padding-left: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+
+.modeheader__left > span {
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.binancedark__bottom {
+  position: absolute;
+  bottom: 7px;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.button__yellow {
+  background-color: #fcd436;
+  width: 335px;
+  height: 43px;
+  border-radius: 4px;
+  background: #fcd436;
+  display: grid;
+  place-items: center;
+  color: #332100;
+  font-family: Inter;
+  font-size: 13.8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: auto;
+}
+
+.border__bottom {
+  background-color: #fff;
+  border-radius: 66px;
+  width: 132px;
+  height: 4px;
+  margin: auto;
+  margin-top: 31px;
+}
+
+.bottom__datetime {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  padding-bottom: 7px;
+}
+
+.detaill__one {
+  color: #7a818b;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.detaill__second {
+  color: #7a818b;
+  font-family: "NotaW01-XBold", Arial, sans-serif;
+
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.77px;
+}
+
+.retiro {
+  color: #7a818b;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.15px;
+}
+
+.historial {
+  color: #7a818b;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.15px;
+}
+
+.detaill__retiro {
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  right: 0;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+.amount__binanceBlack {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+}
+
+.binance__amount {
+  color: #fff;
+  font-family: "NotaW01-XBold", Arial, sans-serif;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.485px;
+}
+
+.binance__currency {
+  color: #fff;
+  font-family: "NotaW01-XBold", Arial, sans-serif;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.485px;
+}
+
+.description__binanceblack {
+  color: #fff;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 26px;
+}
+
+.content__binananceblack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 26px;
+  margin: auto;
+  justify-content: center;
+}
+
+.binance__subheader {
+  padding-top: 24px;
+  padding-left: 21px;
+  padding-bottom: 74px;
+}
+
+.binance__battery {
+  display: flex;
+  gap: 1.3px;
+  align-items: center;
+}
+
+.binance__cover {
+  width: 23px;
+  height: 13px;
+  border-radius: 3px;
+  background: #626669;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.binance__cover > span {
+  color: #fff;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.binance__border {
+  width: 1px;
+  height: 3px;
+  border-radius: 3px;
+  background: #d9d9d9;
+}
+
+.binance__level {
+  width: 90%;
+  height: 13px;
+  border-radius: 3px 0px 0px 3px;
+  background: #f03e32;
+  z-index: 1;
+}
+
+/* 
+styling the header of the binnacne in the rihgt section */
+
+.modeheader__right {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+
+/* styling the signal */
+
+.binanance__signal {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+}
+.signal__1 {
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 0.5px;
+}
+.signal__2 {
+  width: 3px;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 0.5px;
+}
+.signal__3 {
+  width: 3px;
+  height: 9px;
+  background-color: #fff;
+  border-radius: 0.5px;
+}
+.signal__4 {
+  width: 3px;
+  height: 11px;
+  background-color: #fff;
+  border-radius: 0.5px;
+}
+
+.image__b1 {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 23px;
+  margin-bottom: 10px;
+}
