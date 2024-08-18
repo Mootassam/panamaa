@@ -25,7 +25,7 @@ function Sidebar({
     <div className="app__sidebar">
       <div className="sidebar__form">
         <div className="form__group">
-          <label htmlFor=""> 选择银行</label>
+          <label htmlFor=""> Select Wallet</label>
           <select
             name="bank"
             className="app__select"
@@ -50,11 +50,11 @@ function Sidebar({
           </div>
         )}
         <div className="form__group">
-          <label htmlFor=""> 写下金额</label>
+          <label htmlFor=""> Amount:</label>
           <input onChange={(e) => setAmount(e.target.value)}></input>
         </div>
         <div className="form__group">
-          <label htmlFor="">工具</label>
+          <label htmlFor="">tool</label>
           <div className="app__tools">
             <input
               type="color"
@@ -71,7 +71,7 @@ function Sidebar({
           </div>
         </div>
         <div className="form__group">
-          <label htmlFor="">刷子大小</label>
+          <label htmlFor="">Brush Size</label>
           <input
             type="range"
             min="1"
