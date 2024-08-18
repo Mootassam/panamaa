@@ -69,18 +69,18 @@ function BinanceDark(props) {
       </div>
       <div className="binancedark__bottom">
         <div className="bottom__datetime">
-          <span className="detaill__one">Hora estimada de finalización:</span>
+          <span className="detaill__one">Estimated completion time:</span>
           <span className="detaill__second">{Dates.datetime()}</span>
         </div>
         <div className="detaill__retiro">
           <span className="retiro">
-            Recibirás un correo electrónico cuando se complete el retiro.
+          You will receive an email when the withdrawal is complete.
           </span>
           <span className="historial">
-            Consulta el historial para accedera las últimas novedades.
+          Check the history to access the latest news.
           </span>
         </div>
-        <div className="button__yellow">Ver historial</div>
+        <div className="button__yellow">View history</div>
         <div className="border__bottom"></div>
       </div>
     </div>

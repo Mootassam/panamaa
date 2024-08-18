@@ -69,7 +69,7 @@ function B4(props) {
       </div>
       <div className="binancedark__bottom">
         <div className="bottom__datetime">
-          <span className="detaill__one">Hora estimada de finalización:</span>
+          <span className="detaill__one">Hora estimadassssssssss de finalización:</span>
           <span className="detaill__second">{Dates.datetime()}</span>
         </div>
         <div className="detaill__retiro">
