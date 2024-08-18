@@ -99,7 +99,7 @@ function Detalles(props) {
         <div className="detalles__logo">
           <img src="/Detalles/circle.png" alt="" width={44} />
         </div>
-        <div className="detalles__exito">Con éxito</div>
+        <div className="detalles__exito">Successfully</div>
         <div className="exito__date">{Dates.Detalles()}</div>
         <div className="detalles__white">
           <div className="first__detalles">
@@ -123,7 +123,7 @@ function Detalles(props) {
           </div>
           <div className="second__detalles">
             <div className="second__detalles__title">
-              Recom pensa para los mineros
+             Reward for miners
             </div>
             <div className="trx__amount">- 27.{Number.generatedecimalpart(props.amount)} TRX</div>
           </div>
@@ -149,7 +149,7 @@ function Detalles(props) {
           </div>
         </div>
         <div className="detalles__white3">
-          <div className="numero__transaccion">Número de transacción</div>
+          <div className="numero__transaccion">Transaction number</div>
           <div className="white3__right">
             <span>{Names.generateRandomString()}</span>
             <span>{Names.generateRandomString()}</span>
