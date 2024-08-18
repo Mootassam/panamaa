@@ -15,6 +15,8 @@ import W3 from "./component/w3/BinanceWhite";
 import Detalles from "./component/Detalles/Detalles";
 import Detalles2 from "./component/Detalles2/Detalles";
 import DetaillBinance2 from "./component/DetaillBinance2/DetaillBinance";
+import Blue from "./component/Blue/Blue";
+import Ocx from "./component/OCX/Ocx";
 
 function App() {
   const divRef = useRef<HTMLDivElement>(null);
@@ -98,8 +100,10 @@ function App() {
           {value === "detalles" && <Detalles amount={amount} />}
           {value === "detalles2" && <Detalles2 amount={amount} />}
           {value === "detaillBinance2" && <DetaillBinance2 amount={amount} />}
+            {value ==="blue" && <Blue />}
 
-  
+            {value ==="ocx" && <Ocx />}
+            
         </div>
         <div></div>
         <div></div>
