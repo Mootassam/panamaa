@@ -60,7 +60,7 @@ function BinanceDark(props) {
             width={84}
             height={77}
           />
-          <div className="description__binanceblack">Procesando el retiro</div>
+          <div className="description__binanceblack">Processing withdrawal</div>
           <div className="amount__binanceBlack">
             <div className="binance__amount">{props.amount}</div>
             <div className="binance__currency">USDT</div>

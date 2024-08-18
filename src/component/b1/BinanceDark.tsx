@@ -64,7 +64,7 @@ function B1(props) {
             width={84}
             height={77}
           />
-          <div className="description__binanceblack">Procesando el retiro</div>
+          <div className="description__binanceblack">Processing withdrawal</div>
           <div className="amount__binanceBlack">
             <div className="binance__amount">{props.amount}</div>
             <div className="binance__currency">USDT</div>
@@ -73,18 +73,18 @@ function B1(props) {
       </div>
       <div className="binancedark__bottom">
         <div className="bottom__datetime">
-          <span className="detaill__one">Hora estimada de finalización:</span>
+          <span className="detaill__one">Estimated completion time:</span>
           <span className="detaill__second">{Dates.datetime()}</span>
         </div>
         <div className="detaill__retiro">
           <span className="retiro">
-            Recibirás un correo electrónico cuando se complete el retiro.
+          You will receive an email when the withdrawal is complete.
           </span>
           <span className="historial">
-            Consulta el historial para accedera las últimas novedades.
+          Check the history to access the latest news.
           </span>
         </div>
-        <div className="button__yellow">Ver historial</div>
+        <div className="button__yellow">View history</div>
         <div className="image__b1">
           <img src="/mobile/b1.png" alt="" width={211} />
         </div>

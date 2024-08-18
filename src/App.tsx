@@ -93,7 +93,7 @@ function App() {
           {value === "bwhite" && <BinanceWhite amount={amount} />}
           {value === "detaillBinance" && <DetaillBinance amount={amount} />}
           {value === "b1" && <B1 amount={amount} />}
-          {value === "b2" && <B2 amount={amount} />}
+          {/* {value === "b2" && <B2 amount={amount} />} */}
           {value === "w1" && <W1 amount={amount} />}
           {value === "w2" && <W2 amount={amount} />}
           {value === "w3" && <W3 amount={amount} />}

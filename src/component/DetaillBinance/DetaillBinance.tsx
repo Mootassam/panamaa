@@ -48,14 +48,14 @@ function DetaillBinance(props) {
         <div>
           <img src="/DetaillBinance/back.png" alt="" width={20} />
         </div>
-        <div className="title__subheader">Detalle de Retiro</div>
+        <div className="title__subheader">Withdrawal Detail</div>
         <div>
           <img src="/DetaillBinance/logout.png" alt="" width={14} />
         </div>
       </div>
       <div className="detaillbinance__content">
         <div className="detaillbinance__amount">
-          <div className="monto">Monto</div>
+          <div className="monto">Amount</div>
           <div className="binances__amount">
             <div className="amount__">{props.amount}</div>
             <div className="currency">USDT</div>
@@ -69,37 +69,37 @@ function DetaillBinance(props) {
         </div>
 
         <div className="detaill__completed">
-          <span>Criptomonedas transferidas desde Binance. Comunícate con</span>
+          <span>Cryptocurrencies transferred from Binance. Contact</span>
           <span>
-            la plataforma del destinatario para obtener el recibo de la
+          the recipient's platform to obtain the receipt of the
           </span>
-          <span>transacción.</span>
+          <span>transaction.</span>
         </div>
-        <div className="detaill__yellow">¿Por qué no ha llegado mi retiro?</div>
+        <div className="detaill__yellow">Why hasn't my withdrawal arrived?</div>
         <div className="bar">
           <img src="/DetaillBinance/bar.png" alt="" />
         </div>
       </div>
       <div className="other__detail">
         <div>
-          <div className="other__left">Confirmaciones</div>
+          <div className="other__left">Confirmations</div>
           <div className="other__first"> 30 / 1</div>
         </div>
         <div className="red__space">
-          <div className="other__left">Red</div>
+          <div className="other__left">Grid</div>
           <div className="other__first">TRX</div>
         </div>
         <div className="retiro__space">
-          <div className="other__left">Billetera de retiro</div>
-          <div className="other__second">Billetera de fondos</div>
+          <div className="other__left">Retirement Wallet</div>
+          <div className="other__second">Funds wallet</div>
         </div>
         <div className="direcion__space">
-          <div className="other__left">Dirección</div>
+          <div className="other__left">Address</div>
           <div className="direction__row">
             <div className="direction__column">
               <span>TVKMGh1QR6onCmTPu1YmCn</span>
               <span>HK4c3CLgZ×W6</span>
-              <label htmlFor="">Guardar dirección</label>
+              <label htmlFor="">Save address</label>
             </div>
             <div>
               <img src="/DetaillBinance/copy.png" alt="" width={16} />
@@ -120,11 +120,11 @@ function DetaillBinance(props) {
           </div>
         </div>
         <div className="red__space">
-          <div className="other__left">Comisión de la red</div>
+          <div className="other__left">Network Commission</div>
           <div className="usdt__class">1 USDT</div>
         </div>
         <div className="date__space">
-          <div className="other__left">Fecha</div>
+          <div className="other__left">Date</div>
           <div className="date__">{Dates.datetime()}</div>
         </div>
       </div>
@@ -133,9 +133,9 @@ function DetaillBinance(props) {
           <img src="/DetaillBinance/logo.png" alt="" width={27} />
         </div>
         <div className="box__detail">
-          <span>Habilita el retiro en un solo paso para retirar</span>
-          <span>fácilmente a las direcciones incluidas en la</span>
-          <span>lista blanca</span>
+          <span>Enable one-step withdrawal to withdraw</span>
+          <span>easily to the addresses included in the</span>
+          <span>white list</span>
         </div>
         <div>
           <img src="/DetaillBinance/next.png" alt="" width={12} />
