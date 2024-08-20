@@ -45,7 +45,6 @@
   .btc-btc-deposit {
     color: rgba(255, 255, 255, 1);
     font-size: 20px;
-    margin-top: 82px;
   }
   .processed {
     color: rgba(68, 178, 166, 1);
@@ -68,9 +67,14 @@
     align-self: start;
     display: flex;
     margin-left: 13px;
-    gap: 9px;
     color: rgba(27, 188, 164, 1);
+    align-items: center;
     white-space: nowrap;
+  }
+
+  .plus{ 
+    font-size: 21px;
+    font-weight: bold;
   }
   .time1 {
     font-size: 39px;
@@ -81,6 +85,7 @@
     font-size: 20px;
     font-weight: 400;
     margin: auto 0;
+    padding-left: 9px;
   }
   .time2 {
     border-radius: 6px;
@@ -122,22 +127,38 @@
     color: rgba(0, 0, 0, 1);
     font-weight: 600;
   }
+
+  .div-99 {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+  }
   .network-type {
-    margin-top: 21px;
   }
   .div-10 {
     display: flex;
     flex-direction: column;
     font-weight: 500;
-    white-space: nowrap;
+    text-align: end;
   }
+  
   .bc-1-qwzn-9056-khjlf-4-ws-6-ln-7-j-7-yu {
     color: rgba(29, 143, 226, 1);
+    display: flex;
+    width: 184px;
+    flex-wrap: wrap;
   }
   .bitcoin {
     color: rgba(0, 0, 0, 1);
     align-self: end;
     margin-top: 28px;
+  }
+
+  .bitcoin1 {
+    color: rgba(0, 0, 0, 1);
+    align-self: end;
   }
   .div-11 {
     border-radius: 5px;

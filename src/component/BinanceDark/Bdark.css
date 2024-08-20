@@ -18,6 +18,7 @@
   align-items: center;
   justify-content: space-between;
   padding-right: 15px;
+  width: 350px;
 }
 
 .modeheader__left > span {
@@ -203,7 +204,7 @@
   line-height: normal;
   position: absolute;
 
-  top: 39%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
