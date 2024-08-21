@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Dates from "../../shared/dates";
 import Left from "../../shared/icons/Left";
 import "./ocx.css";
-function Ocx() {
+function Ocx(props) {
   const limit = Math.floor(Math.random() * (100 - 6 + 1)) + 6;
 
   const CheckstatusBattery = () => {
@@ -105,8 +105,8 @@ function Ocx() {
               </div>
             </div>
           </div>
-          <div className="usdt1">+346 USDT</div>
-          <div className="data1">≈ $346.19</div>
+          <div className="usdt1">+{props.amount} USDT</div>
+          <div className="data1">≈ ${props.amount}.19</div>
         </div>
         <div className="div-61">
           <div className="div-71">

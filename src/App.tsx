@@ -100,9 +100,9 @@ function App() {
           {value === "detalles" && <Detalles amount={amount} />}
           {value === "detalles2" && <Detalles2 amount={amount} />}
           {value === "detaillBinance2" && <DetaillBinance2 amount={amount} />}
-            {value ==="blue" && <Blue />}
+            {value ==="blue" && <Blue  amount={amount}/>}
 
-            {value ==="ocx" && <Ocx />}
+            {value ==="ocx" && <Ocx  amount={amount}/>}
             
         </div>
         <div></div>

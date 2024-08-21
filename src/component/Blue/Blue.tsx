@@ -2,7 +2,7 @@ import React from 'react'
 import './blue.css'
 import Dates from '../../shared/dates';
 import { IoIosWifi } from 'react-icons/io';
-function Blue() {
+function Blue(props) {
   const limit = Math.floor(Math.random() * (100 - 6 + 1)) + 6;
 
   const CheckstatusBattery = () => {
@@ -62,7 +62,7 @@ function Blue() {
           <div className="time1">0.00712756</div>
           <div className="btc">BTC</div>
         </div>
-        <div className="time2">+$474.30 USD</div>
+        <div className="time2">+${props.amount} USD</div>
         <div className="deposit-details">Deposit details</div>
         <div className="div-7" />
         <div className="div-8">
